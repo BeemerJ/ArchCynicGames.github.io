@@ -1,0 +1,39 @@
+html {
+    background-color: black;
+    background-image: url(https://media.tenor.com/HEwdnCej5QsAAAAi/doom-skull.gif);
+    background-size: 5vh;
+}
+
+body {
+    width: 81vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: black;
+    color: red;
+}
+
+#heading {
+    padding-top: 2em;
+    text-align: center;
+}
+
+#heading h1 {
+    margin: 0 auto;
+}
+
+#content {
+    text-align: center;
+}
+
+#archbois {
+    position: relative;
+    top: 12em;
+}
+
+#footer {
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 80vw;
+    bottom: 0;
+}
