@@ -1,15 +1,19 @@
+:root {
+    --purple: purple;
+    --red: red;
+    --green: lime;
+}
+
 html {
-    background-color: black;
-    background-image: url(https://media.tenor.com/HEwdnCej5QsAAAAi/doom-skull.gif);
-    background-size: 2vh;
+    background-color: var(--purple);
 }
 
 body {
-    width: 81vw;
+    width: 80vw;
     height: 100vh;
     margin: 0 auto;
     background-color: black;
-    color: red;
+    color: var(--purple);
 }
 
 #heading {
